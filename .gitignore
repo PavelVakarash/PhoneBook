@@ -15,5 +15,6 @@ gradlew/
 *.jar
 *.properties
 *.iml
+*.log
 
 
