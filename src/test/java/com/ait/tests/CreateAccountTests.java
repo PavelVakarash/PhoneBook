@@ -33,7 +33,7 @@ public class CreateAccountTests extends TestBase{
         Assert.assertTrue(app.getUser().isLoginRegFormPresent());
         app.getUser().fillLoginRegForm(new User()
                 .setEmail("pv-7@gmail.co")
-                .setPassword( "123"));
+                .setPassword( "qwerty"));
         app.getUser().clickOnRegistrationButton();
         Assert.assertFalse(app.getHeader().isSignOutButtonPresent());
     }
