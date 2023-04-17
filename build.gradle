@@ -39,6 +39,18 @@ task qa1(type:Test) {
         }
     }
 
+task qa2(type:Test) {
+    useTestNG() {
+        def suite1 = project.hasProperty("suite1")
+        def suite3 = project.hasProperty("suite3")
+
+        if (suite1) {
+            suites 'src/test/resources/quick.xml'
+        } else if (suite3) {
+            suites 'src/test/resources/negative.xml'
+        }
+    }
+
    if (project.hasProperty('browser')) {
        systemProperty 'browser',"${browser}"
    }
