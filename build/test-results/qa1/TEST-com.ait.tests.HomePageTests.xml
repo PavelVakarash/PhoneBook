@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.tests.HomePageTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-17T16:26:41" hostname="DESKTOP-OS617JJ" time="0.052">
+  <properties/>
+  <testcase name="openHomePageTest" classname="com.ait.tests.HomePageTests" time="0.052"/>
+  <system-out><![CDATA[18:26:40.032 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+18:26:40.797 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+18:26:41.094 [Test worker] INFO  com.ait.tests.TestBase -- Start testopenHomePageTestwith data: []
+18:26:41.153 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: openHomePageTest
+18:26:41.154 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 35083
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 17, 2023 6:26:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+</testsuite>
