@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.tests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-04-17T22:13:01" hostname="DESKTOP-OS617JJ" time="5.101">
+  <properties/>
+  <testcase name="loginRegisteredUserWithInvalidPasswordNegativeTest" classname="com.ait.tests.LoginTests" time="1.617"/>
+  <testcase name="loginRegisteredUserWithoutPasswordNegativeTest" classname="com.ait.tests.LoginTests" time="1.436"/>
+  <system-out><![CDATA[00:13:01.140 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+00:13:01.531 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+00:13:01.724 [Test worker] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserWithInvalidPasswordNegativeTestwith data: []
+00:13:03.391 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: loginRegisteredUserWithInvalidPasswordNegativeTest
+00:13:03.393 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+00:13:04.839 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+00:13:05.222 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+00:13:05.373 [Test worker] INFO  com.ait.tests.TestBase -- Start testloginRegisteredUserWithoutPasswordNegativeTestwith data: []
+00:13:06.873 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: loginRegisteredUserWithoutPasswordNegativeTest
+00:13:06.874 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 6116
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 18, 2023 12:13:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 21801
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 18, 2023 12:13:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+</testsuite>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ait.tests.CreateAccountTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-04-17T22:12:47" hostname="DESKTOP-OS617JJ" time="12.533">
+  <properties/>
+  <testcase name="newUserRegistrationWithInvalidPasswordNegativeFromCSVTest[0](User{email='pv-7@gmail.co', password='123'})" classname="com.ait.tests.CreateAccountTests" time="0.737"/>
+  <testcase name="newUserRegistrationWithInvalidPasswordNegativeFromCSVTest[1](User{email='pv-7@gmail.co', password='price'})" classname="com.ait.tests.CreateAccountTests" time="0.559"/>
+  <testcase name="newUserRegistrationWithInvalidPasswordNegativeFromCSVTest[2](User{email='pv-7@gmail.co', password='Price123'})" classname="com.ait.tests.CreateAccountTests" time="0.597"/>
+  <testcase name="newUserRegistrationWithInvalidPasswordNegativeFromCSVTest[3](User{email='pv-7@gmail.co', password='!@#$%^&amp;*'})" classname="com.ait.tests.CreateAccountTests" time="0.638"/>
+  <testcase name="newUserRegistrationWithInvalidPasswordNegativeTest" classname="com.ait.tests.CreateAccountTests" time="1.218"/>
+  <system-out><![CDATA[00:12:46.392 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+00:12:46.868 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+00:12:47.158 [Test worker] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationWithInvalidPasswordNegativeFromCSVTestwith data: [User{email='pv-7@gmail.co', password='123'}]
+00:12:47.941 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: newUserRegistrationWithInvalidPasswordNegativeFromCSVTest
+00:12:47.942 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+00:12:49.699 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+00:12:50.141 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+00:12:50.311 [Test worker] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationWithInvalidPasswordNegativeFromCSVTestwith data: [User{email='pv-7@gmail.co', password='price'}]
+00:12:50.936 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: newUserRegistrationWithInvalidPasswordNegativeFromCSVTest
+00:12:50.936 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+00:12:52.402 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+00:12:52.805 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+00:12:53.008 [Test worker] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationWithInvalidPasswordNegativeFromCSVTestwith data: [User{email='pv-7@gmail.co', password='Price123'}]
+00:12:53.648 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: newUserRegistrationWithInvalidPasswordNegativeFromCSVTest
+00:12:53.648 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+00:12:55.036 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+00:12:55.506 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+00:12:55.687 [Test worker] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationWithInvalidPasswordNegativeFromCSVTestwith data: [User{email='pv-7@gmail.co', password='!@#$%^&*'}]
+00:12:56.349 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: newUserRegistrationWithInvalidPasswordNegativeFromCSVTest
+00:12:56.350 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+00:12:57.752 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- All tests starts in Chrome Browser
+00:12:58.282 [Test worker] INFO  c.a.phonebook.fw.ApplicationManager -- Current URL --> https://telranedu.web.app/home
+00:12:58.449 [Test worker] INFO  com.ait.tests.TestBase -- Start testnewUserRegistrationWithInvalidPasswordNegativeTestwith data: []
+00:12:59.733 [Test worker] INFO  com.ait.tests.TestBase -- PASSED: newUserRegistrationWithInvalidPasswordNegativeTest
+00:12:59.734 [Test worker] INFO  com.ait.tests.TestBase -- ======================================
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 28723
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 18, 2023 12:12:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 20386
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 18, 2023 12:12:49 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 25413
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 18, 2023 12:12:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 12674
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 18, 2023 12:12:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 39685
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+???. 18, 2023 12:12:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
+]]></system-err>
+</testsuite>
