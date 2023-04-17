@@ -1,13 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite2" verbose="1" >
+<suite name="Suite3" verbose="1" >
     <test name="NoPackage" >
         <classes>
-            <class name="com.ait.tests.HomePageTests" />
-            <class name="com.ait.tests.RemoveContactTests" />
+            <class name="com.ait.tests.CreateAccountTests" />
             <class name="com.ait.tests.LoginTests">
                 <methods>
-                    <exclude name=".*Negative.*"></exclude>
+                    <include name=".*Negative.*"></include>
                 </methods>
             </class>
         </classes>
