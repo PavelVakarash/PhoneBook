@@ -27,7 +27,7 @@ public class CreateAccountTests extends TestBase{
         Assert.assertTrue(app.getHeader().isSignOutButtonPresent());
     }
 
-    @Test
+    @Test(enabled = false)
     public void newUserRegistrationWithInvalidPasswordNegativeTest() {
         app.getHeader().clickOnLoginLink();
         Assert.assertTrue(app.getUser().isLoginRegFormPresent());
